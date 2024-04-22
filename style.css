@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(./images/bacground-blur.svg);
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 117px;
+	color: #11161c;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.logo-container {
+	display: flex;
+	align-items: center;
+}
+
+.nav-links {
+	display: flex;
+	flex-direction: row;
+}
+
+.navbar a {
+	color: #11161c;
+	text-decoration: none;
+	margin: 0 20px;
+}
+
+.navbar.solid-nav a {
+	color: #f7f5f4;
+}
+
+.navbar li {
+	list-style: none;
+}
+
+#navbar-logo {
+	height: 100px;
+	width: auto;
+	margin-left: 20px;
+}
+
+.navbar.solid-nav {
+	background-color: #11161c7c;
+	color: #f7f5f4;
+	transition: 0.3s;
+}
