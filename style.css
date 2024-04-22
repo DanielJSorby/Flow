@@ -4,6 +4,48 @@
 	box-sizing: border-box;
 }
 
+/* Colors */
+
+.text-white {
+	color: #F7F5F4;
+}
+
+.text-black {
+	color: #11161C;
+}
+
+.text-grey {
+	color: #7F8491;
+}
+
+.text-ligt-blue {
+	color: #7CADD4;
+}
+
+.text-dark-blue {
+	color: #5E91AF;
+}
+
+.background-white {
+	background-color: #F7F5F4;
+}
+
+.background-black {
+	background-color: #11161C;
+}
+
+.background-grey {
+	background-color: #7F8491;
+}
+
+.background-ligt-blue {
+	background-color: #7CADD4;
+}
+
+.background-dark-blue {
+	background-color: #5E91AF;
+}
+
 /* Fonts */
 @import url("https://use.typekit.net/mto2bxv.css");
 
