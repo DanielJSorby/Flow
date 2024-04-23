@@ -6,7 +6,8 @@
     <title>Flow | Home</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body style="">
+    <!-- Navbar -->
     <div class="navbar">
         <div class="logo-contaier">
             <img src="https://placehold.co/400x400" alt="Logo" class="logo" id="navbar-logo">
@@ -17,13 +18,27 @@
             <li><a href="services.html">Services</a></li>
             <li><a href="contact.html">Contact</a></li>
     </div>
-
-
-    <p style="margin-bottom: 200vh;"></p>
-    <script src="./jquery-3.7.1.min.js"></script>
-    <script src="./index.js"></script>
-    <div class="start-home">
-        <div class="slogan">Enter Your <span>Zone</span></div>
+    <div class="weird-container">
+        <div id="weird-square"></div>
+    </div>
+    <!-- Home -->
+    <div class="start-home" style="margin-bottom: 200vh;">
+        <div class="slogan-and-button">
+        <div class="slogan">
+            <h1>Enter <br>Your <span class="text-light-blue">Zone.</span></h1>
+        </div>
+        <div class="bottles-container">
+            <img src="https://placehold.co/400x400" alt="Bottle" class="bottle" id="bottle1">
+        </div>
+    </div>
     </div>
 </body>
+<script src="./jquery-3.7.1.min.js"></script>
+<script src="./index.js"></script>
+<script>
+    $('body').css({'overflow':'hidden'});
+    $(document).bind('scroll',function () { 
+       window.scrollTo(0,0); 
+  });
+</script>
 </html>

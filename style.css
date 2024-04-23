@@ -1,65 +1,133 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat:ital,wght@0,800;1,800&display=swap");
+
+/* Font Types
+	Regular:
+	font-family: "montserrat", sans-serif;
+	font-weight: 400;
+	font-style: normal; 
+	*/
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-/* Colors */
-
-.text-white {
-	color: #F7F5F4;
-}
-
-.text-black {
-	color: #11161C;
-}
-
-.text-grey {
-	color: #7F8491;
-}
-
-.text-ligt-blue {
-	color: #7CADD4;
-}
-
-.text-dark-blue {
-	color: #5E91AF;
-}
-
-.background-white {
-	background-color: #F7F5F4;
-}
-
-.background-black {
-	background-color: #11161C;
-}
-
-.background-grey {
-	background-color: #7F8491;
-}
-
-.background-ligt-blue {
-	background-color: #7CADD4;
-}
-
-.background-dark-blue {
-	background-color: #5E91AF;
-}
-
-/* Fonts */
-@import url("https://use.typekit.net/mto2bxv.css");
-
-/* Font Types
-	Regular:
-	font-family: "montserrat", sans-serif;
-	font-weight: 400;
-	font-style: normal; */
-
 body {
-	background-image: url(./images/bacground-blur.svg);
+	background-color: #f7f5f4;
 	font-family: "montserrat", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	color: #f7f5f4;
+}
+
+/* Colors */
+
+.text-white {
+	color: #f7f5f4;
+}
+
+.text-black {
+	color: #11161c;
+}
+
+.text-grey {
+	color: #7f8491;
+}
+
+.text-light-blue {
+	color: #7cadd4;
+}
+
+.text-dark-blue {
+	color: #5e91af;
+}
+
+.background-white {
+	background-color: #f7f5f4;
+}
+
+.background-black {
+	background-color: #11161c;
+}
+
+.background-grey {
+	background-color: #7f8491;
+}
+
+.background-light-blue {
+	background-color: #7cadd4;
+}
+
+.background-dark-blue {
+	background-color: #5e91af;
+}
+
+/* Text */
+h1 {
+	font-size: 150px;
+	font-weight: 800;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+h4 {
+	font-size: 25px;
+	font-weight: 700;
+}
+
+h5 {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+h6 {
+	font-size: 15px;
+	font-weight: 700;
+}
+
+p {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+@media screen and (max-width: 1500px) {
+	h1 {
+		font-size: 100px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	h3 {
+		font-size: 25px;
+	}
+
+	h4 {
+		font-size: 20px;
+	}
+
+	h5 {
+		font-size: 15px;
+	}
+
+	h6 {
+		font-size: 10px;
+	}
+
+	p {
+		font-size: 10px;
+	}
 }
 
 .navbar {
@@ -111,4 +179,39 @@ body {
 	color: #f7f5f4;
 	box-shadow: 0px 6px 32px 0px rgba(0, 0, 0, 0.75);
 	transition: 0.3s;
+}
+
+/* Home Start */
+.start-home {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	padding: 0 40px;
+}
+
+.slogan-and-button {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.start-home .slogan {
+	text-shadow: 2px 2px #000000;
+}
+
+#weird-square {
+	position: absolute;
+	top: 0;
+	left: -400px;
+	width: 1500px;
+	height: 1000px;
+	background-color: #454c5f;
+	/* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); */
+	clip-path: polygon(0 0, 79.29% 0, 64% 100%, 0 100%);
+	z-index: -1;
+	rotate: 77deg;
 }
