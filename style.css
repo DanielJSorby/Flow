@@ -202,16 +202,3 @@ p {
 .start-home .slogan {
 	text-shadow: 2px 2px #000000;
 }
-
-#weird-square {
-	position: absolute;
-	top: 0;
-	left: -400px;
-	width: 1500px;
-	height: 1000px;
-	background-color: #454c5f;
-	/* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); */
-	clip-path: polygon(0 0, 79.29% 0, 64% 100%, 0 100%);
-	z-index: -1;
-	rotate: 77deg;
-}
