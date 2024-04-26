@@ -1,11 +1,12 @@
 /* Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat:ital,wght@0,800;1,800&display=swap");
+@import url("https://use.typekit.net/mto2bxv.css");
 
 /* Font Types
 	Regular:
 	font-family: "montserrat", sans-serif;
 	font-weight: 400;
 	font-style: normal; 
+	https://fonts.adobe.com/fonts/montserrat
 	*/
 
 * {
@@ -17,7 +18,6 @@
 body {
 	background-color: #f7f5f4;
 	font-family: "montserrat", sans-serif;
-	font-weight: 400;
 	font-style: normal;
 	color: #f7f5f4;
 }
@@ -140,7 +140,6 @@ p {
 	top: 0;
 	left: 0;
 	width: 100%;
-	font-weight: 500;
 	font-size: 35px;
 }
 
@@ -154,14 +153,15 @@ p {
 	flex-direction: row;
 }
 
-.navbar a {
-	color: #11161c;
+.navbar .nav-links a {
+	color: #454c5f;
 	text-decoration: none;
 	margin: 0 20px;
+	font-weight: 300;
 }
 
-.navbar.solid-nav a {
-	color: #f7f5f4;
+#nav-about {
+	font-weight: 300;
 }
 
 .navbar li {
@@ -174,15 +174,13 @@ p {
 	margin-left: 20px;
 }
 
-.navbar.solid-nav {
-	background-color: #11161c7c;
-	color: #f7f5f4;
-	box-shadow: 0px 6px 32px 0px rgba(0, 0, 0, 0.75);
-	transition: 0.3s;
-}
-
 /* Home Start */
 .start-home {
+	background: linear-gradient(
+		73deg,
+		rgba(69, 76, 95, 1) 70%,
+		rgba(247, 245, 244, 1) 70%
+	);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -201,4 +199,22 @@ p {
 
 .start-home .slogan {
 	text-shadow: 2px 2px #000000;
+}
+
+.bottle {
+	width: 50vw;
+	height: auto;
+}
+
+#bottle1 {
+	position: absolute;
+	rotate: 40deg;
+	right: -70px;
+	top: 12vh;
+}
+
+#bottle2 {
+	position: absolute;
+	top: 12vh;
+	right: 50px;
 }
