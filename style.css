@@ -20,6 +20,7 @@ body {
 	font-family: "montserrat", sans-serif;
 	font-style: normal;
 	color: #f7f5f4;
+	height: 100vh;
 }
 
 /* Colors */
@@ -62,6 +63,14 @@ body {
 
 .background-dark-blue {
 	background-color: #5e91af;
+}
+
+.no-style {
+	text-decoration: none;
+}
+
+.no-style a {
+	text-decoration: none;
 }
 
 /* Text */
@@ -130,6 +139,26 @@ p {
 	}
 }
 
+/* Generic */
+button {
+	border: none;
+	background-color: #f7f5f4;
+	cursor: pointer;
+	font-size: 38px;
+	padding: 20px 60px;
+	border-radius: 18px;
+	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+	margin: 20px 0;
+	font-family: "montserrat", sans-serif;
+	font-weight: 500;
+}
+
+.line {
+	height: 3px;
+	margin: 20px 0;
+}
+
+/* Navbar */
 .navbar {
 	display: flex;
 	justify-content: space-between;
@@ -141,6 +170,11 @@ p {
 	left: 0;
 	width: 100%;
 	font-size: 35px;
+}
+
+#nav-name {
+	font-size: 60px;
+	padding-left: 20px;
 }
 
 .logo-container {
@@ -202,19 +236,117 @@ p {
 }
 
 .bottle {
-	width: 50vw;
+	width: 28vw;
 	height: auto;
 }
 
 #bottle1 {
 	position: absolute;
 	rotate: 40deg;
-	right: -70px;
+	right: 70px;
 	top: 12vh;
 }
 
 #bottle2 {
 	position: absolute;
 	top: 12vh;
-	right: 50px;
+	right: 300px;
+}
+
+/* Flavours */
+.flavour-container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flavour {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.flavour h1 {
+	font-size: 80px;
+}
+
+.navbar.flavours-nav a {
+	color: #f7f5f4;
+}
+
+.flav-pic {
+	height: 80vh;
+	width: auto;
+}
+
+.flav-line {
+	width: 80%;
+}
+
+.flavour p {
+	font-size: 50px;
+	font-weight: 600;
+}
+
+.flav-nutritions {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.flav-nutritions p {
+	padding-right: 20px;
+}
+
+.flavour button {
+	margin-top: 90px;
+	width: 100%;
+}
+
+/* flav-specific */
+
+/* Cadoflower */
+.cadoflower {
+	background-color: #6a8c65;
+}
+
+.cadoflower .flav-line {
+	background-color: #f7f5f4;
+}
+
+.cadoflower button {
+	color: #6a8c65;
+}
+
+/* Minty Citrus */
+.minty-citrus {
+	background-color: #fffaba;
+	color: #6a8c65;
+}
+
+.minty-citrus .flav-line {
+	background-color: #6a8c65;
+}
+
+.minty-citrus button {
+	color: #6a8c65;
+}
+
+/* Bloody Ginger */
+.bloody-ginger {
+	background-color: #ffbc98;
+	color: #fffaba;
+}
+
+.bloody-ginger .flav-line {
+	background-color: #fffaba;
+}
+
+.bloody-ginger button {
+	color: #6a8c65;
 }
