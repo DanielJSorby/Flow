@@ -253,6 +253,13 @@ button {
 	right: 300px;
 }
 
+#home-button {
+	position: absolute;
+	right: 0;
+	bottom: 30px;
+	background-color: #666F88;
+	color: #f7f5f4;
+}
 /* Flavours */
 .flavour-container {
 	width: 100%;
