@@ -1,0 +1,40 @@
+[
+	{
+		"name": "Cadoflower+",
+		"price": 3,
+		"currency": "$",
+		"image": "https://i.ibb.co/sg5ZN6k/Cadoflower.png",
+		"mainColor": "#6A8C65",
+		"secondColor": "#FFFFFF",
+		"ingredients": ["Avocado", "Elderflower"],
+		"coffeine": "105mg",
+		"vitaminK": "70mcg",
+		"description": "Carefully crafted to ensure quality in every drop. Based on the daring depths of South America and Innovative ends in Europe inspiring exploration and development."
+	},
+
+	{
+		"name": "Minty Citrus",
+		"price": 3,
+		"currency": "$",
+		"image": "https://i.ibb.co/3ftd62s/Minty-Citrus.png",
+		"mainColor": "#FFFABA",
+		"secondColor": "#6A8C65",
+		"ingredients": ["Mint", "Lemon"],
+		"coffeine": "105mg",
+		"vitaminK": "70mcg",
+		"description": "Meticulously crafted to deliver an unforgettable taste experience. Inspired by the lush orchards of the Mediterranean and the invigorating coolness of Alpine peaks, this blend takes your taste buds on a journey of discovery and delight."
+	},
+
+	{
+		"name": "Bloody Ginger",
+		"price": 3,
+		"currency": "$",
+		"image": "https://i.ibb.co/S3b0Ltb/Bloody-Ginger.png",
+		"mainColor": "#FFBC98",
+		"secondColor": "#FFFABA",
+		"ingredients": ["Blood Orange", "Ginger"],
+		"coffeine": "105mg",
+		"vitaminK": "70mcg",
+		"description": "Crafted with attention to detail to deliver an unparalleled taste experience. Inspired by the sun-drenched orchards of Sicily and the rugged beauty of the Australian Outback, this blend offers a tantalizing journey of flavor exploration."
+	}
+]
