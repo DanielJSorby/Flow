@@ -28,10 +28,10 @@ function createFlavourTemplate(flavour) {
                         <p class="flav-ingredients">
                             ${ingredients}
                         </p>
-                        <div class="line flav-line"></div>
+                        <div class="line flav-line" style="background-color: ${flavour.secondColor}"></div>
                         <div class="flav-nutritions">
-                            <p class="flav-numbers">${flavour.coffeine}<br>${flavour.vitaminK}</p>
-                            <p class="flav-names">Coffeine<br>Vitamin K</p>
+                            <p class="flav-numbers">${flavour.coffeine}<br>${flavour.vitamin}</p>
+                            <p class="flav-names">Coffeine<br>Vitamin ${flavour.vitaminType}</p>
                         </div>
                     </div>
                 </div>
