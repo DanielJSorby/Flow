@@ -5,7 +5,7 @@ Flow er en energidrikk bedrift, som lager energidrikk for de voksne!
 
 ### Logo
 Manuel
-### Webdesign
+### Webdesign Og Daglig Leder
 Eskil
 ### 3d Moddelering
 Lucas
